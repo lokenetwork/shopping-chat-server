@@ -6,9 +6,11 @@ The project is not finished,Because I have not time.I need to find a job now.
 
 I write the all code by myself.
 
-The hybird client link is here:
+The two hybird client link is here:
 
 https://github.com/lokenetwork/hybird_shopping_app
+
+https://github.com/lokenetwork/shopkeeper_ionic_client
 
 The fellow is the main pictures.
 
@@ -27,8 +29,8 @@ https://github.com/lokenetwork/shopping-php-server
 
 https://github.com/lokenetwork/shopping-chat-server
 
-https://github.com/lokenetwork/hybird_shopping_app
-
 https://github.com/lokenetwork/passport-shopping-system
+
+https://github.com/lokenetwork/hybird_shopping_app
 
 https://github.com/lokenetwork/shopkeeper_ionic_client
