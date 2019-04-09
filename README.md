@@ -8,8 +8,6 @@
  ![image](https://github.com/lokenetwork/hybird_shopping_app/blob/master/project_picture/chat.png)
 
 
-
-
 # 买买提平台关项目代码
 
 客户端APP：https://github.com/lokenetwork/hybird_shopping_app
