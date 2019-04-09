@@ -1,37 +1,25 @@
-# shopping-chat-server
+# 买买提客服系统
 
-This project is build at golang.
-
-The project is not finished,Because I have not time.I need to find a job now.
-
-I write the all code by myself.
-
-The two hybird client link is here:
-
-https://github.com/lokenetwork/hybird_shopping_app
-
-https://github.com/lokenetwork/shopkeeper_ionic_client
-
-The fellow is the main pictures.
+客服IM系统，采用GO+websocket+protobuf技术实现。第一版已经开发完成，在单机16核32G上压测，可支持40万并发连接，每秒处理1万条消息。第二版打算采用rabbitmq做历史消息写入的中间层，同时做多机器版本，可以支持更多的并发连接，因为没有时间，我暂时没去开发第二版，第二版的具体架构面试详谈。
 
  ![image](https://github.com/lokenetwork/hybird_shopping_app/blob/master/demo-picture/consult-1.png)
  ![image](https://github.com/lokenetwork/hybird_shopping_app/blob/master/demo-picture/consult-2.png)
 
 
 
-# The whole shopping system code link
 
-https://github.com/lokenetwork/hybird_shopping_app
+# 买买提平台关项目代码
 
-https://github.com/lokenetwork/shopkeeper_ionic_client
+客户端APP：https://github.com/lokenetwork/hybird_shopping_app
 
-https://github.com/lokenetwork/shopping-php-server
+PHP接口服务器：https://github.com/lokenetwork/shopping-php-server
 
-https://github.com/lokenetwork/shopping-chat-server
+GO聊天服务器：https://github.com/lokenetwork/shopping-chat-server
 
-https://github.com/lokenetwork/passport-shopping-system
+通行证服务器（单点登录）：https://github.com/lokenetwork/passport-shopping-system
 
-https://github.com/lokenetwork/shop-manage
+商家后台：https://github.com/lokenetwork/shop-manage
 
-https://github.com/lokenetwork/admin-shopping
+总平台后台：https://github.com/lokenetwork/admin-shopping
+
 
