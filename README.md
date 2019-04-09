@@ -2,10 +2,10 @@
 
 客服IM系统，采用GO+websocket+protobuf技术实现。第一版已经开发完成，在单机16核32G上压测，可支持40万并发连接，每秒处理1万条消息。第二版打算采用rabbitmq做历史消息写入的中间层，同时做多机器版本，可以支持更多的并发连接，因为没有时间，我暂时没去开发第二版，第二版的具体架构面试详谈。
 
- ![image](https://github.com/lokenetwork/hybird_shopping_app/blob/master/project_picture/chat_client.png)
- ![image](https://github.com/lokenetwork/hybird_shopping_app/blob/master/project_picture/session_list.png)
+ ![image](https://github.com/lokenetwork/shopping-chat-server/blob/master/project_picture/chat_client.png)
+ ![image](https://github.com/lokenetwork/shopping-chat-server/blob/master/project_picture/session_list.png)
  
- ![image](https://github.com/lokenetwork/hybird_shopping_app/blob/master/project_picture/chat.png)
+ ![image](https://github.com/lokenetwork/shopping-chat-server/blob/master/project_picture/chat.png)
 
 
 # 买买提平台关项目代码
