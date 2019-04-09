@@ -1,0 +1,22 @@
+syntax = "proto3";
+package main;
+
+message WSMessage {
+    //消息类型 shop_auth ，auth，或 message
+    string type = 1;
+    bytes content = 2;
+}
+
+message AuthMessage {
+    string token = 3;
+}
+
+message Message {
+    //消息类型来源，buyer 或者 shoper
+    string from = 4;
+    //消息类型，text 或者 img ,文字或图像
+    string message_type = 5;
+    int32 from_user_id = 6;
+    int32 to_user_id = 7;
+    string content = 8;
+}
